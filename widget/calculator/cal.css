@@ -1,0 +1,26 @@
+.center{
+	width: 230px;
+    height: 40%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.input{
+	width: 65;
+}
+.button-center{
+    width: 25%;
+    height: 34%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
