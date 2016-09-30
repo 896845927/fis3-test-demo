@@ -1,3 +1,4 @@
+//  @require 'keys.css' 
 var input = document.querySelectorAll('.input');
 
 window.last_id = 'one';
@@ -25,3 +26,4 @@ keys.forEach(function(item){
 		
 	});
 })
+

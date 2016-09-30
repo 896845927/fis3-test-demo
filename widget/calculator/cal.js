@@ -1,3 +1,5 @@
+// @require cal.css
+
 var one = document.getElementById('one'),
 two = document.getElementById('two'),
 operator = document.getElementById('operator'),

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cal.test</title>
+    <script type="text/javascript" src="/static/mod.js"></script>
+</head>
+<body>
+	<link rel="import" href="/widget/calculator/cal.html?__inline">
+	<link rel="import" href="/widget/num-keys/keys.html?__inline">
+	<script type="text/javascript">
+		require('./widget/calculator/cal.js');
+		require('./widget/num-keys/keys.js');
+		var mode = require('./widget/select-browser-mode-by-width/sbmbw.js');
+		console.log(mode.selectMode)
+		if (mode.selectMode=='mobile') {
+			document.getElementById('keys').style = 'display:block';
+		};
+		
+	</script>
+</body>
+</html>

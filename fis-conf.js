@@ -6,7 +6,7 @@
 fis.hook('commonjs');
 
 // 设置组件库里面的 js 都是模块化 js.
-fis.match('/widget/*', {
+fis.match('/widget/**.{js,css}', {
     isMod: true
 });
 
